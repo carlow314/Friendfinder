@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "0.0.0",
+  "description": "a full stack app to find friends",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlow314/Friendfinder.git"
+  },
+  "author": "Jeff Carlow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlow314/Friendfinder/issues"
+  },
+  "homepage": "https://github.com/carlow314/Friendfinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}
