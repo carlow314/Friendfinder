@@ -1,7 +1,7 @@
 var friends = [
 	{
 		name: "Jeff",
-		photo: "https://pixel.nymag.com/imgs/daily/grub/2014/10/16/16-sean-brock.w1200.h630.jpg",
+		photo: "https://static1.squarespace.com/static/51bf0e35e4b010d205f86840/t/521157dbe4b071720029d745/1376868315628/sean.jpg",
 		scores: ["5", "5", "4", "4", "3", "4", "3", "2", "3", "4"]
 	},
   {

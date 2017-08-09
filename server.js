@@ -8,6 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
+app.use(express.static('app/public'));
 var htmlRoutes = require("./app/routing/htmlroutes");
 var apiRoutes = require("./app/routing/apiroutes");
 apiRoutes(app);
