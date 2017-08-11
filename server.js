@@ -10,7 +10,7 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use(express.static('app/public'));
 var htmlRoutes = require("./app/routing/htmlroutes");
-var apiRoutes = require("./app/routing/apiroutes");
+var apiRoutes = require("./app/routing/apiRoutes");
 apiRoutes(app);
 htmlRoutes(app);
 
