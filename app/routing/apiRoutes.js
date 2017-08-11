@@ -23,6 +23,7 @@ var apiRoutes = function(app) {
       for (var j = 0; j < comparedFriend.scores.length; j++) {
         var differenceOneScore = Math.abs(comparedFriend.scores[j] - newFriend.scores[j]);
         totalDifference += differenceOneScore;
+
       }
 
       differencesArray[i] = totalDifference;
